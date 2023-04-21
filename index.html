@@ -8,35 +8,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <title>E-Commerce G25</title>
+    <title>E-Commerce CJB</title>
   </head>
   <body>
     <nav>
       <img src="./images/logo_nombre.png" alt="logo_nombre">
-      <button class="car__toggle">
+      <button class="cart__toggle">
         <i class="fa-solid fa-cart-shopping"></i>
       </button>
-      <!-- Panel Carrito de Compras -->
-      <div class="car__block" id="car">
-        <div id="car__list">
-
+      <div class="cart__block" id="cart">
+        <div id="cart__list">  
         </div>
-        <button class="empty__button" id="empty__cart">
-          Empty cart
-        </button>
+        <button class="empty__button" id="empty__cart">Empty cart</button>
       </div>
     </nav>
     <header>
       <img src="./images/logo blanco.png" alt="logo_header">
     </header>
     <main>
-      <h3>Todos nuestros productos</h3>
-      <!-- Lista de productos -->
-      <div id="products-container" class="principal__container">
-
+      <h3>All our products</h3>
+      <div id="products-container" class="principal__container">  
       </div>
+      <div id="modal-container" class="modal__container__element">
+        <div>
+          <i class="fa-solid fa-x icon__modal"></i>
+        </div>
+        <div id="modal" class="modal__element">         
+        </div>
+      </div>     
     </main>
-
     <script src="https://kit.fontawesome.com/b22286fea9.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./main.js"></script>
